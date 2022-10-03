@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "quil-qir/Cargo.toml"
+    ]
+}
