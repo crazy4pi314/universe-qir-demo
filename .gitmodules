@@ -1,0 +1,3 @@
+[submodule "demo/SV-Sim"]
+	path = demo/SV-Sim
+	url = https://github.com/pnnl/SV-Sim.git
