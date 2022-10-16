@@ -16,7 +16,7 @@ dependencies:
   - graphviz==2.50
   - pip==22.2.2
   - pip:
-    - git+https://github.com/qutip/qutip-qip@master
+    - -e git+https://github.com/crazy4pi314/qutip-qip@crazy4pi314/record-output#egg=qutip_qip
     - qutip
     - pyqir
     - azure-quantum

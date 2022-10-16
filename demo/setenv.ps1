@@ -59,7 +59,7 @@ function global:pnnl-run {
         $target = "BernsteinVazirani_cpu"
     }
 
-    Push-Location /workspaces/universe-qir-demo/demo/sv-sim/svsim_qsharp_noise
+    Push-Location /workspaces/universe-qir-demo/demo/SV-Sim/svsim_qsharp_noise
     make $target
     1..$shots | %{. "./$target"} | histogram
     rm "./$target"
