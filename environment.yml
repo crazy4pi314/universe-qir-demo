@@ -1,0 +1,22 @@
+name: qir-demo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - notebook==6.4
+  - numpy==1.23.3
+  - scipy==1.9.1
+  - matplotlib==3.5
+  - pandas==1.5.0
+  - ipykernel==6.15
+  - cython
+  - pytest
+  - llvm-tools==13
+  - graphviz==2.50
+  - pip==22.2.2
+  - pip:
+    - git+https://github.com/qutip/qutip-qip@master
+    - qutip
+    - pyqir
+    - azure-quantum
