@@ -1,9 +1,2 @@
-[submodule "demo/SV-Sim"]
-	path = demo/SV-Sim
-	url = https://github.com/pnnl/SV-Sim.git
-[submodule "nwqsim"]
-	path = nwqsim
-	url = https://github.com/qir-alliance/nwqsim.git
-[submodule "qsharp-runtime"]
-	path = qsharp-runtime
-	url = https://github.com/microsoft/qsharp-runtime.git
+[submodule "qutip-qip"]
+	path = qutip-qip

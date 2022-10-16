@@ -32,7 +32,12 @@
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"ms-vscode.powershell",
-				"quantum.quantum-devkit-vscode"
+				"quantum.quantum-devkit-vscode",
+				"njpwerner.autodocstring",
+				"ms-toolsai.jupyter",
+				"donjayamanne.python-environment-manager",
+				"tomoki1207.pdf",
+				"joaompinto.vscode-graphviz"
 			]
 		}
 	},
