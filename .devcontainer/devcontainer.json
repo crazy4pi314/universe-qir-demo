@@ -35,7 +35,8 @@
 				"njpwerner.autodocstring",
 				"ms-toolsai.jupyter",
 				"donjayamanne.python-environment-manager",
-				"joaompinto.vscode-graphviz"
+				"joaompinto.vscode-graphviz",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	},
