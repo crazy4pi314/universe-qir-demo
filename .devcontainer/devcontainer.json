@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/python-3-anaconda
 {
-	"name": "Anaconda (Python 3)",
+	"name": "Quantum Codespaces",
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile",
@@ -31,12 +31,10 @@
 			"extensions": [
 				"ms-python.python",
 				"ms-python.vscode-pylance",
-				"ms-vscode.powershell",
 				"quantum.quantum-devkit-vscode",
 				"njpwerner.autodocstring",
 				"ms-toolsai.jupyter",
 				"donjayamanne.python-environment-manager",
-				"tomoki1207.pdf",
 				"joaompinto.vscode-graphviz"
 			]
 		}
@@ -51,9 +49,6 @@
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"features": {
-		"git": "latest",
-		"git-lfs": "latest",
-		"rust": "latest",
-		"powershell": "latest"
+		"rust": "latest"
 	}
 }

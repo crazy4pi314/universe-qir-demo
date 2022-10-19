@@ -1,8 +1,6 @@
 # Python temporary files
 .ipynb_checkpoints
 
-# Git ignore file for the Solid project
-
 # Build artifacts
 *.g.cs
 bin/
