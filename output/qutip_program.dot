@@ -1,0 +1,19 @@
+digraph "CFG for 'main' function" {
+	label="CFG for 'main' function";
+
+	Node0x56208babd240 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870",label="{entry:\l  call void @__quantum__qis__rz__body(double 1.230000e-01, %Qubit* null)\l  call void @__quantum__qis__h__body(%Qubit* inttoptr (i64 1 to %Qubit*))\l  call void @__quantum__qis__cnot__body(%Qubit* inttoptr (i64 1 to %Qubit*),\l... %Qubit* inttoptr (i64 2 to %Qubit*))\l  call void @__quantum__qis__cnot__body(%Qubit* null, %Qubit* inttoptr (i64 1\l... to %Qubit*))\l  call void @__quantum__qis__h__body(%Qubit* null)\l  call void @__quantum__qis__mz__body(%Qubit* null, %Result* null)\l  call void @__quantum__qis__mz__body(%Qubit* inttoptr (i64 1 to %Qubit*),\l... %Result* inttoptr (i64 1 to %Result*))\l  %0 = call i1 @__quantum__qis__read_result__body(%Result* null)\l  br i1 %0, label %then, label %else\l|{<s0>T|<s1>F}}"];
+	Node0x56208babd240:s0 -> Node0x56208babf880;
+	Node0x56208babd240:s1 -> Node0x56208babf930;
+	Node0x56208babf880 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#f59c7d70",label="{then:                                             \l  call void @__quantum__qis__x__body(%Qubit* inttoptr (i64 2 to %Qubit*))\l  br label %continue\l}"];
+	Node0x56208babf880 -> Node0x56208babfc80;
+	Node0x56208babf930 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#f59c7d70",label="{else:                                             \l  br label %continue\l}"];
+	Node0x56208babf930 -> Node0x56208babfc80;
+	Node0x56208babfc80 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870",label="{continue:                                         \l  %1 = call i1 @__quantum__qis__read_result__body(%Result* inttoptr (i64 1 to\l... %Result*))\l  br i1 %1, label %then1, label %else2\l|{<s0>T|<s1>F}}"];
+	Node0x56208babfc80:s0 -> Node0x56208babff80;
+	Node0x56208babfc80:s1 -> Node0x56208babffd0;
+	Node0x56208babff80 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#f59c7d70",label="{then1:                                            \l  call void @__quantum__qis__z__body(%Qubit* inttoptr (i64 2 to %Qubit*))\l  br label %continue3\l}"];
+	Node0x56208babff80 -> Node0x56208bac0290;
+	Node0x56208babffd0 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#f59c7d70",label="{else2:                                            \l  br label %continue3\l}"];
+	Node0x56208babffd0 -> Node0x56208bac0290;
+	Node0x56208bac0290 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870",label="{continue3:                                        \l  call void @__quantum__rt__array_start_record_output()\l  call void @__quantum__rt__result_record_output(%Result* null)\l  call void @__quantum__rt__result_record_output(%Result* inttoptr (i64 1 to\l... %Result*))\l  call void @__quantum__rt__array_end_record_output()\l  ret void\l}"];
+}
