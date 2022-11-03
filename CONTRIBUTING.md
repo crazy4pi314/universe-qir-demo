@@ -1,27 +1,28 @@
 # Contributing
 
-Thank you for your interest in contributing to QIR book!
+Thank you for your interest in contributing to this demo!
 
-There are many ways in which you can contribute to the book, whether by contributing a feature or by engaging in discussions; we value contributions in all shapes and sizes! The following sections may give some ideas for how you can get involved.
+There are many ways in which you can contribute to the demo, whether by contributing a feature or by engaging in discussions; we value contributions in all shapes and sizes! The following sections may give some ideas for how you can get involved.
 
 ## Asking and Answering Questions
 
 Have a question?
-This repository is a great place to ask questions about what QIR is, why do we need it, and how to use QIR with any platform or tooling.
-Your question will serve as resource to others searching for help.
-Please file an issue to ask your question [here](https://github.com/crazy4pi314/qir-book/issues/new).
+This repository is a great place to ask questions about the end to end demo, please file an issue to ask your question [here](https://github.com/crazy4pi314/universe-qir-demo/issues/new).
+If you have more general questions about the tools/packages used in this demo, please file an issue in the corresponding repository, and for general QIR questions, check out the [QIR Book](https://www.qir-alliance.org/qir-book/).
+
+> TIP: There are also weekly community calls for the QIR Alliance, which you can find more information about [here](https://www.qir-alliance.org/resources/).
 
 Or maybe you have figured out how that hard-to-understand concept works? Share your knowledge!
 If you are interested in contributing to the documentation around QIR and its tools, please follow the standard development process on the respective repository to improve the materials.
 
 ## Reporting and Commenting on Issues
 
-Have you identified an issue or modification that would benefit the QIR community more broadly than the scope of this documentation?
+Have you identified an issue or modification that would benefit the QIR community more broadly than the scope of this demo?
 We want to hear about it!
-If you have feedback about the content in this repository, please let us know by filing a [new issue](https://github.com/crazy4pi314/qir-book/issues/new)!
+If you have feedback about the content in this repository, please let us know by filing a [new issue](https://github.com/crazy4pi314/universe-qir-demo/issues/new)!
 
 As for any active effort, there are always many ways in which we hope to evolve and improve the specification and tools.
-We encourage you to look at the list of currently [open issues](https://github.com/crazy4pi314/qir-book/issues) to share your ideas and expertise.
+We encourage you to look at the list of currently [open issues](https://github.com/crazy4pi314/universe-qir-demo/issues) to share your ideas and expertise.
 
 ## Contributing Code
 
@@ -34,7 +35,7 @@ If an issue has not been labeled yet, please indicate that you would like to wor
 
 If you are interested in contributing a new feature, please first check if a similar functionality has already been requested.
 If so, consider contributing to the discussion around it rather than filing a separate issue.
-If no open or closed issue with such a request already exists, please file one following the [feature request template](https://github.com/crazy4pi314/qir-book/issues/new?assignees=&labels=feature&template=feature_request.md&title=).
+If no open or closed issue with such a request already exists, please file one [here]](https://github.com/crazy4pi314/universe-qir-demo/issues/new).
 We will respond to feature requests and follow up with a discussion around its feasibility, how one might go about implementing it, and whether that is something that makes sense to add.
 There are several reasons why we might not be able to eventually merge even a great feature.
 Perhaps most commonly, a contribution is a really good one, but this isn't the right place to develop it or we simply aren't ready to maintain and develop it further.
@@ -42,7 +43,7 @@ It can be difficult to do everything, so we are careful to prioritize the qualit
 In such cases, we strongly encourage you to pursue your passion project in your own fork, and welcome sharing and discussing your thoughts and progress on the corresponding issue regardless.
 We'll also ask for changes to a pull request if it requires more documentation or unit tests to better make use of it.
 
-If you are looking for a place to get started with contributing code, search for example for the [good-first-issue](https://github.com/crazy4pi314/qir-book/labels/good%20first%20issue) or [help-wanted](https://github.com/crazy4pi314/qir-book/labels/help%20wanted) labels. Also, look for issues that have already been discussed in more detail, and check if you can help someone who has already started working on it.
+If you are looking for a place to get started with contributing code, search for example for the [good-first-issue](https://github.com/crazy4pi314/universe-qir-demo/labels/good%20first%20issue) or [help-wanted](https://github.com/crazy4pi314/universe-qir-demo/labels/help%20wanted) labels. Also, look for issues that have already been discussed in more detail, and check if you can help someone who has already started working on it.
 
 And last but not least:
 
